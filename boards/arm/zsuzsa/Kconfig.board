@@ -1,0 +1,10 @@
+# Copyright (c) 2023 CTDD
+# SPDX-License-Identifier: MIT
+
+config BOARD_ZSUZSA_LEFT
+    bool "zsuzsa left"
+    depends on SOC_NRF52840_QIAA
+
+config BOARD_ZSUZSA_RIGHT
+    bool "zsuzsa right"
+    depends on SOC_NRF52840_QIAA

@@ -1,0 +1,8 @@
+# Copyright (c) 2023 CTDD
+# SPDX-License-Identifier: MIT
+
+config BOARD_ZSUZSA_LEFT
+    bool
+
+config BOARD_ZSUZSA_RIGHT
+    bool

@@ -1,0 +1,16 @@
+file_format: "1"
+id: zsuzsa
+name: Zsuzsa
+url: https://github.com/your-username/zmk-zsuzsa-keyboard
+type: board
+arch: arm
+features:
+  - keys
+  - display
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - zsuzsa_left
+  - zsuzsa_right

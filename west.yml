@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: vovanoxin
+      url-base: https://github.com/Vovanoxin
+
+  projects:
+    # SSD1681 tricolor display driver (required dependency)
+    - name: ssd1681_tricolor
+      remote: vovanoxin
+      revision: main
+      path: modules/ssd1681_tricolor
