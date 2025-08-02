@@ -21,7 +21,7 @@ lv_obj_t *zmk_display_status_screen(void) {
         lv_obj_set_style_bg_color(screen, white_color, LV_PART_MAIN);
         lv_obj_set_style_bg_opa(screen, LV_OPA_COVER, LV_PART_MAIN);
         
-        LOG_INF("Custom white screen created with explicit white color");
+        LOG_WRN("Custom white screen created with explicit white color - THIS IS WORKING!");
     }
     
     return screen;

@@ -1,4 +1,5 @@
 name: zmk-zsuzsa-keyboard
 build:
+  cmake: .
   settings:
     board_root: .
