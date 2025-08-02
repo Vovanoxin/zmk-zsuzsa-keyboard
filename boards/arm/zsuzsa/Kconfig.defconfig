@@ -47,22 +47,19 @@ config ZMK_DISPLAY
     select LV_USE_LABEL
     select LV_USE_IMG
 
-#choice ZMK_DISPLAY_STATUS_SCREEN
-#    default ZMK_DISPLAY_STATUS_SCREEN_CUSTOM
-#endchoice
+choice ZMK_DISPLAY_STATUS_SCREEN
+    default ZMK_DISPLAY_STATUS_SCREEN_CUSTOM
+endchoice
 
 
-# if ZMK_DISPLAY
+if ZMK_DISPLAY
 
-#config SPI
-#    default y
+config SPI
+    default y
 
-#config IL0323
-#    default y
+config ZMK_DISPLAY_BLANK_ON_IDLE
+    default n
 
-#config ZMK_DISPLAY_BLANK_ON_IDLE
-#    default n
-
-# endif # ZMK_DISPLAY
+endif # ZMK_DISPLAY
 
 endif # SHIELD_ZSUZSA_LEFT || SHIELD_ZSUZSA_RIGHT
